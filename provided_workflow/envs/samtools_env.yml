@@ -1,0 +1,7 @@
+# REVIEW D01: spec names this file but gives no version; samtools pinned to 1.21
+name: samtools_env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - samtools=1.21

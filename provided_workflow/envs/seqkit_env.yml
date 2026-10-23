@@ -1,0 +1,7 @@
+# REVIEW D01: spec names this file but gives no version; seqkit pinned to 2.8.2
+name: seqkit_env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - seqkit=2.8.2
